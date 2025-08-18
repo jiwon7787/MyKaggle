@@ -1,5 +1,14 @@
+# venv / caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
 
-# large datasets
-*.csv
-.small.csv
-CMI - Detect Behavior with Sensor Data/cmi-detect-behavior-with-sensor-data/train.csv
+# data & big artifacts
+competitions/*/data/
+competitions/*/models/
+outputs/
+
+# OS cruft
+.DS_Store
+Thumbs.db
